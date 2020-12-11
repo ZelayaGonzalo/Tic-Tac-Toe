@@ -36,6 +36,11 @@ let circleTurn
 
 restartButton.addEventListener('click', startGame)
 
+function newGame(){
+  container.style.display="none"
+  newGameWindow.style.display="grid"
+}
+
 function startGame() {
     circleTurn = false
     cellElements.forEach(cell => {

@@ -22,7 +22,7 @@
         Player 2:
       </label>
       <input id="player2" name="player1" type="text" class="playerInput">
-      <input type="submit" value="Start Game" class="submitButton">
+      <input type="submit" value="Start Game" class="buttonUI" style="margin: 1em;">
     </form>
   </div>
   <div class="container" id="container">
@@ -46,9 +46,9 @@
       PlayerName2
       <div class="cell circle" id="playerCell"></div>
     </div>
-    <input type="button" class="buttonUI" name="reset" value="Reset">
+    <input type="button" class="buttonUI" name="reset" value="Reset" onclick=startGame()>
     <div></div>
-    <input type="button" class="buttonUI" name="NewGame" value="New Game">
+    <input type="button" class="buttonUI" name="NewGame" value="New Game" onclick=newGame()>
   </div>
 
   
